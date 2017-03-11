@@ -1,3 +1,0 @@
-C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir
-C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/edit_cache.dir
-C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/rebuild_cache.dir

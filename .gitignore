@@ -1,9 +1,0 @@
-# Eclipse Files #
-###################
-.cproject
-.project
-.settings
-###################
-# Release         #
-###################
-Release/*
