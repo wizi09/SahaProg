@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+6339b9af1b086128802174d48f85fe0e src/Tests/moc_Test.cxx
+86a10458d52aa6825df3ef0e469757ce src/Tools/moc_Tools.cxx
+f489bbdd5ab31dec40b31f9632546312 src/moc_SahaProgCmakeConfig.cxx

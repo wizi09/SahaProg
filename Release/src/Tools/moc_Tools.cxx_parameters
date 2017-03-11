@@ -1,0 +1,17 @@
+-IC:/Program Files/boost_1_62_0
+-IC:/Qt/include
+-IC:/Qt/include/QtGui
+-IC:/Qt/include/QtSql
+-IC:/Qt/include/QtCore
+-DQT_DLL
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_SQL_LIB
+-DQT_CORE_LIB
+-DQT_DLL
+-DQT_NO_KEYWORDS
+-DWIN32
+-DBOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION
+-o
+C:/Users/Abdou/workspace/SahaProg/Release/src/Tools/moc_Tools.cxx
+C:/Users/Abdou/workspace/SahaProg/src/Tools/Tools.h
