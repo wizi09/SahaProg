@@ -1,6 +1,6 @@
 # SrcCmakeList.cmake
 #
-#  Created on: 2016-02-23
+#  Created on: 2017-03-11
 #      Author: Abdallah Benkadja
 #       Email: abdou9989@gmail.com
 
@@ -54,7 +54,7 @@ ${srcDir}SahaProg.cpp
 # ------------------------------ Linkage des libs ---------------------------------
 # ---------------------------------------------------------------------------------
 
-SET(LIBS ${QT_LIBRARIES} ${Boost_LIBRARIES} ${dlib_LIBRARIES})
+SET(LIBS ${QT_LIBRARIES} ${Boost_LIBRARIES} ${GSL_LIBRARIES} ${dlib_LIBRARIES})
 
 #QT4_WRAP_CPP(SahaProg_HEADERS_MOC ${srcSahaProgH} OPTIONS -DBOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION)
 QT4_AUTOMOC(${srcSahaProgH})

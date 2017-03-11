@@ -19,8 +19,19 @@
 #include <boost/lexical_cast.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/thread/thread.hpp>
+
+// Gnu Scientific Library
+#include <gsl/gsl_sf_bessel.h>
+
+// dLIB
+#include <dlib/bayes_utils.h>
+#include <dlib/graph_utils.h>
+#include <dlib/graph.h>
+#include <dlib/directed_graph.h>
+
 // Namespaces
 using namespace std;
+using namespace dlib;
 
 
 /**
@@ -29,6 +40,7 @@ using namespace std;
 class Test
 {
 public:
+	static void testGSL();
 	static void testTest();
 	static void testDlib();
 	static void testBoost();

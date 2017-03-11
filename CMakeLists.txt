@@ -37,5 +37,20 @@ INCLUDE(${QT_USE_FILE})
 ADD_DEFINITIONS(${QT_DEFINITIONS})
 ADD_DEFINITIONS(-DQT_NO_KEYWORDS)
 
+#------------------ Gnu Scientific Library----------------------------------------------------------
+FIND_PACKAGE(GSL REQUIRED)    
+if (GSL_FOUND)
+  include_directories(${GSL_INCLUDE_DIRS})
+  MESSAGE("GSL_INCLUDE_DIR Include Dir ---------->    : ${GSL_INCLUDE_DIRS}")
+	MESSAGE("GSL_LIBRARIES Found       ---------->    : ${GSL_LIBRARIES}.")
+  #INCLUDE(${FLTK_USE_FILE})
+endif (GSL_FOUND)
+
+#------------------dLIB
+set(Dlib_DIR "C:/Program Files/Project/lib/cmake/dlib")
+set(dlib_INCLUDE_DIRS "C:/Program Files/Project/include")
+set(dlib_LIBRARIES "C:/Program Files/Project/lib/libdlib.a")
+include_directories(${dlib_INCLUDE_DIRS})
+
 
 include("SrcCmakeList.cmake")
