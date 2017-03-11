@@ -177,33 +177,6 @@ src/Tests/Test.cpp.s:
 	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tests/Test.cpp.s
 .PHONY : src/Tests/Test.cpp.s
 
-src/Tests/moc_Test.obj: src/Tests/moc_Test.cxx.obj
-
-.PHONY : src/Tests/moc_Test.obj
-
-# target to build an object file
-src/Tests/moc_Test.cxx.obj:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tests/moc_Test.cxx.obj
-.PHONY : src/Tests/moc_Test.cxx.obj
-
-src/Tests/moc_Test.i: src/Tests/moc_Test.cxx.i
-
-.PHONY : src/Tests/moc_Test.i
-
-# target to preprocess a source file
-src/Tests/moc_Test.cxx.i:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tests/moc_Test.cxx.i
-.PHONY : src/Tests/moc_Test.cxx.i
-
-src/Tests/moc_Test.s: src/Tests/moc_Test.cxx.s
-
-.PHONY : src/Tests/moc_Test.s
-
-# target to generate assembly for a file
-src/Tests/moc_Test.cxx.s:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tests/moc_Test.cxx.s
-.PHONY : src/Tests/moc_Test.cxx.s
-
 src/Tools/Tools.obj: src/Tools/Tools.cpp.obj
 
 .PHONY : src/Tools/Tools.obj
@@ -231,60 +204,6 @@ src/Tools/Tools.cpp.s:
 	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tools/Tools.cpp.s
 .PHONY : src/Tools/Tools.cpp.s
 
-src/Tools/moc_Tools.obj: src/Tools/moc_Tools.cxx.obj
-
-.PHONY : src/Tools/moc_Tools.obj
-
-# target to build an object file
-src/Tools/moc_Tools.cxx.obj:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tools/moc_Tools.cxx.obj
-.PHONY : src/Tools/moc_Tools.cxx.obj
-
-src/Tools/moc_Tools.i: src/Tools/moc_Tools.cxx.i
-
-.PHONY : src/Tools/moc_Tools.i
-
-# target to preprocess a source file
-src/Tools/moc_Tools.cxx.i:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tools/moc_Tools.cxx.i
-.PHONY : src/Tools/moc_Tools.cxx.i
-
-src/Tools/moc_Tools.s: src/Tools/moc_Tools.cxx.s
-
-.PHONY : src/Tools/moc_Tools.s
-
-# target to generate assembly for a file
-src/Tools/moc_Tools.cxx.s:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/Tools/moc_Tools.cxx.s
-.PHONY : src/Tools/moc_Tools.cxx.s
-
-src/moc_SahaProgCmakeConfig.obj: src/moc_SahaProgCmakeConfig.cxx.obj
-
-.PHONY : src/moc_SahaProgCmakeConfig.obj
-
-# target to build an object file
-src/moc_SahaProgCmakeConfig.cxx.obj:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/moc_SahaProgCmakeConfig.cxx.obj
-.PHONY : src/moc_SahaProgCmakeConfig.cxx.obj
-
-src/moc_SahaProgCmakeConfig.i: src/moc_SahaProgCmakeConfig.cxx.i
-
-.PHONY : src/moc_SahaProgCmakeConfig.i
-
-# target to preprocess a source file
-src/moc_SahaProgCmakeConfig.cxx.i:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/moc_SahaProgCmakeConfig.cxx.i
-.PHONY : src/moc_SahaProgCmakeConfig.cxx.i
-
-src/moc_SahaProgCmakeConfig.s: src/moc_SahaProgCmakeConfig.cxx.s
-
-.PHONY : src/moc_SahaProgCmakeConfig.s
-
-# target to generate assembly for a file
-src/moc_SahaProgCmakeConfig.cxx.s:
-	$(MAKE) -f CMakeFiles/SahaProg.dir/build.make CMakeFiles/SahaProg.dir/src/moc_SahaProgCmakeConfig.cxx.s
-.PHONY : src/moc_SahaProgCmakeConfig.cxx.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,18 +219,9 @@ help:
 	@echo "... src/Tests/Test.obj"
 	@echo "... src/Tests/Test.i"
 	@echo "... src/Tests/Test.s"
-	@echo "... src/Tests/moc_Test.obj"
-	@echo "... src/Tests/moc_Test.i"
-	@echo "... src/Tests/moc_Test.s"
 	@echo "... src/Tools/Tools.obj"
 	@echo "... src/Tools/Tools.i"
 	@echo "... src/Tools/Tools.s"
-	@echo "... src/Tools/moc_Tools.obj"
-	@echo "... src/Tools/moc_Tools.i"
-	@echo "... src/Tools/moc_Tools.s"
-	@echo "... src/moc_SahaProgCmakeConfig.obj"
-	@echo "... src/moc_SahaProgCmakeConfig.i"
-	@echo "... src/moc_SahaProgCmakeConfig.s"
 .PHONY : help
 
 

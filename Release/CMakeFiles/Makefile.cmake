@@ -10,7 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake"
-  "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in"
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeFindDependencyMacro.cmake"
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake"
@@ -59,9 +58,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "src/Tools/moc_Tools.cxx_parameters"
-  "src/Tests/moc_Test.cxx_parameters"
-  "src/moc_SahaProgCmakeConfig.cxx_parameters"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

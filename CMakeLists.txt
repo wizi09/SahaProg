@@ -26,6 +26,7 @@ set(SAHAPROG_BUILD_TEST_VERSION 1 CACHE STRING "Compile ou non les sources liees
 set(SAHAPROG_BUILD_ALL 0 CACHE STRING "Compile ou non les sources liees a SAHAPROG Lab, SAHAPROG, SAHAPROG Server." FORCE)
 
 
+
 #------------------ BOOST 1.5.4 --------------------------------------
 find_package(Boost REQUIRED COMPONENTS thread system regex)
 include_directories(${Boost_INCLUDE_DIR})

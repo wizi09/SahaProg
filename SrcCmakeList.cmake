@@ -54,10 +54,10 @@ ${srcDir}SahaProg.cpp
 # ------------------------------ Linkage des libs ---------------------------------
 # ---------------------------------------------------------------------------------
 
-SET(LIBS ${QT_LIBRARIES} ${Boost_LIBRARIES})
+SET(LIBS ${QT_LIBRARIES} ${Boost_LIBRARIES} ${dlib_LIBRARIES})
 
-QT4_WRAP_CPP(SahaProg_HEADERS_MOC ${srcSahaProgH} OPTIONS -DBOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION)
-
+#QT4_WRAP_CPP(SahaProg_HEADERS_MOC ${srcSahaProgH} OPTIONS -DBOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION)
+QT4_AUTOMOC(${srcSahaProgH})
 add_executable (SahaProg ${SahaProg_HEADERS_MOC}  ${srcSahaProgCPP} ) 
 target_link_libraries(SahaProg ${LIBS})
 

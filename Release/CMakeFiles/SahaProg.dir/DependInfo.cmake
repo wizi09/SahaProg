@@ -6,10 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Abdou/workspace/SahaProg/src/SahaProg.cpp" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/SahaProg.cpp.obj"
   "C:/Users/Abdou/workspace/SahaProg/src/Tests/Test.cpp" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/Tests/Test.cpp.obj"
-  "C:/Users/Abdou/workspace/SahaProg/Release/src/Tests/moc_Test.cxx" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/Tests/moc_Test.cxx.obj"
   "C:/Users/Abdou/workspace/SahaProg/src/Tools/Tools.cpp" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/Tools/Tools.cpp.obj"
-  "C:/Users/Abdou/workspace/SahaProg/Release/src/Tools/moc_Tools.cxx" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/Tools/moc_Tools.cxx.obj"
-  "C:/Users/Abdou/workspace/SahaProg/Release/src/moc_SahaProgCmakeConfig.cxx" "C:/Users/Abdou/workspace/SahaProg/Release/CMakeFiles/SahaProg.dir/src/moc_SahaProgCmakeConfig.cxx.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

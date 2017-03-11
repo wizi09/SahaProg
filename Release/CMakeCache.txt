@@ -885,6 +885,9 @@ SahaProg_BINARY_DIR:STATIC=C:/Users/Abdou/workspace/SahaProg/Release
 //Value Computed by CMake
 SahaProg_SOURCE_DIR:STATIC=C:/Users/Abdou/workspace/SahaProg
 
+//Path to a library.
+dlib_LIBRARIES:FILEPATH=C:/Program Files/Project/lib/libdlib.a
+
 
 ########################
 # INTERNAL cache entries

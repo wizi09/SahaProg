@@ -48,7 +48,8 @@ int runTests(int argc, char* argv[])
 
     setAppCodecs();
     //checkLocale("en_US.UTF-8");
-    Test::testTest();
+    //Test::testTest();
+    Test::testBoost();
     // ************** TestServer ************
     
     cout << endl << ">> --- Test(s) Done ---" << endl;
