@@ -7,23 +7,23 @@
 
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
-project(SahaProg)
+project(SehaProg)
 
 #------------------------------------------------------------------------------------------------
 #--------------------------------------- Options de compilation -------------------------------------------
 #------------------------------------------------------------------------------------------------
 
-set(SAHAPROG_BUILD_LAB_VERSION 0 CACHE STRING "Compile ou non les sources liees a l'edition Lab." FORCE)
+set(SEHAPROG_BUILD_LAB_VERSION 0 CACHE STRING "Compile ou non les sources liees a l'edition Lab." FORCE)
 
-set(SAHAPROG_BUILD_STABLE_VERSION 0 CACHE STRING "Compile ou non les sources liees a version stable." FORCE)
+set(SEHAPROG_BUILD_STABLE_VERSION 0 CACHE STRING "Compile ou non les sources liees a version stable." FORCE)
 
-set(SAHAPROG_BUILD_SERVER_VERSION 0 CACHE STRING "Compile ou non les sources liees a la version serveur du SAHAPROG." FORCE)
+set(SEHAPROG_BUILD_SERVER_VERSION 0 CACHE STRING "Compile ou non les sources liees a la version serveur du SAHAPROG." FORCE)
 
-set(SAHAPROG_BUILD_CLIENT_VERSION 0 CACHE STRING "Compile ou non les sources liees au client SAHAPROG." FORCE)
+set(SEHAPROG_BUILD_CLIENT_VERSION 0 CACHE STRING "Compile ou non les sources liees au client SAHAPROG." FORCE)
 
-set(SAHAPROG_BUILD_TEST_VERSION 1 CACHE STRING "Compile ou non les sources liees aux tests." FORCE)
+set(SEHAPROG_BUILD_TEST_VERSION 1 CACHE STRING "Compile ou non les sources liees aux tests." FORCE)
 
-set(SAHAPROG_BUILD_ALL 0 CACHE STRING "Compile ou non les sources liees a SAHAPROG Lab, SAHAPROG, SAHAPROG Server." FORCE)
+set(SEHAPROG_BUILD_ALL 0 CACHE STRING "Compile ou non les sources liees a SAHAPROG Lab, SAHAPROG, SAHAPROG Server." FORCE)
 
 
 

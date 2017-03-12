@@ -7,6 +7,7 @@
  */
 
 #include "Test.h"
+
 /*
  * Fonction de test de la Gnu Scientific Library
  */

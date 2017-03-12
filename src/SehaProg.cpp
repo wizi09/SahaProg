@@ -1,5 +1,5 @@
 /*
- *  SahaProg.cpp
+ *  SehaProg.cpp
  *  
  *      Author : Abdallah Benkadja
  *  	Email  : abdou9989@gmail.com
@@ -9,12 +9,12 @@
 //STL
 #include <iostream>
 // Config
-#include "SahaProgCmakeConfig.h"
+#include "SehaProgCmakeConfig.h"
 // Qt
 #include <QApplication>
 #include <QTextCodec>
 
-#if SAHAPROG_BUILD_TEST_VERSION
+#if SEHAPROG_BUILD_TEST_VERSION
 #include "Tests/Test.h"
 #endif
 
@@ -34,7 +34,7 @@ void setAppCodecs()
 }
 
 
-#if SAHAPROG_BUILD_TEST_VERSION
+#if SEHAPROG_BUILD_TEST_VERSION
 /**
  * Lance les fonctions de test.
  * \param int \b argc : nombre d'arguments passe au programme (le programme represente lui meme le premier argument).
@@ -78,7 +78,7 @@ int main(int argc, char** argv)
     bool bRunTests = true;
     
 
-#if SAHAPROG_BUILD_TEST_VERSION
+#if SEHAPROG_BUILD_TEST_VERSION
     if(bRunTests) state = runTests(argc, argv);
 #endif
     

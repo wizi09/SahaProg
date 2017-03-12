@@ -35,17 +35,17 @@ set(srcTestsCPP
 ${srcDirTests}Test.cpp
 )
 #------------------------Definition des *.h et *.cpp constitutifs du projet 
-set(srcSahaProgH
+set(srcSehaProgH
 ${srcToolsH}
 ${srcTestsH}
-${srcDir}SahaProgCmakeConfig.h
+${srcDir}SehaProgCmakeConfig.h
 
 )
 
-set(srcSahaProgCPP
+set(srcSehaProgCPP
 ${srcToolsCPP}
 ${srcTestsCPP}
-${srcDir}SahaProg.cpp
+${srcDir}SehaProg.cpp
 )
 
 # ------------------------------- Fin de la definition des variables --------------
@@ -57,7 +57,7 @@ ${srcDir}SahaProg.cpp
 SET(LIBS ${QT_LIBRARIES} ${Boost_LIBRARIES} ${GSL_LIBRARIES} ${dlib_LIBRARIES})
 
 #QT4_WRAP_CPP(SahaProg_HEADERS_MOC ${srcSahaProgH} OPTIONS -DBOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION)
-QT4_AUTOMOC(${srcSahaProgH})
-add_executable (SahaProg ${SahaProg_HEADERS_MOC}  ${srcSahaProgCPP} ) 
-target_link_libraries(SahaProg ${LIBS})
+QT4_AUTOMOC(${srcSehaProgH})
+add_executable (SehaProg ${SehaProg_HEADERS_MOC}  ${srcSehaProgCPP} ) 
+target_link_libraries(SehaProg ${LIBS})
 

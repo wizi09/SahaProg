@@ -24,6 +24,9 @@
 #include <gsl/gsl_sf_bessel.h>
 
 // dLIB
+#include <dlib/gui_widgets.h>
+#include <dlib/image_io.h>
+#include <dlib/image_transforms.h>
 #include <dlib/bayes_utils.h>
 #include <dlib/graph_utils.h>
 #include <dlib/graph.h>
