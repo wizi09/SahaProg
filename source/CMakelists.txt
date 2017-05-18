@@ -1,0 +1,41 @@
+
+# 
+# Configuration for all sub-projects
+# 
+
+## Generate version-header
+#configure_file(version.h.in ${CMAKE_CURRENT_BINARY_DIR}/include/${META_PROJECT_NAME}/${META_PROJECT_NAME}-version.h)
+
+
+# 
+# Sub-projects
+# 
+
+# Libraries
+#set(IDE_FOLDER "")
+#add_subdirectory(core)
+# Tests
+if(OPTION_BUILD_DATABASE)
+    #set(IDE_FOLDER "Tests")
+    add_subdirectory(database)
+endif()
+
+#add_subdirectory(tools)
+#Executable
+add_subdirectory(gui)
+# Examples
+set(IDE_FOLDER "Examples")
+add_subdirectory(examples)
+
+# Tests
+if(OPTION_BUILD_TESTS)
+    set(IDE_FOLDER "Tests")
+    add_subdirectory(tests)
+endif()
+
+
+#
+# Project Health
+#
+
+#add_subdirectory(scripts)
